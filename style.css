@@ -1,3 +1,4 @@
+/*import font dari google font*/
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tangerine:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
@@ -9,7 +10,7 @@
     max-width: 100%;
     max-height: 100%;
 }
-
+/*membuat header dan navigasi*/
 header {
     margin: 0px;
     background-color: #A89C8A;
@@ -52,7 +53,9 @@ a {
     color: white;
     font-size: 15px;
 }
+/* end */
 
+/*membuat main dari website*/
 main {
     padding-top: 10px;
     height: 100%;
@@ -60,7 +63,8 @@ main {
     max-height: 100%;
     margin-bottom: 10px;
 }
-
+/* end of main*/
+/*slide foto / konten 1*/
 .slider {
     height: 300px;
     padding-top: 5px;
@@ -80,7 +84,9 @@ main {
     max-width: auto;
     padding-left: 5px;
 }
+/* end of slide / konten 1*/
 
+/*membuat konten 2*/
 .content-1 {
     height: 100%;
     max-height: 100%;
@@ -133,7 +139,9 @@ main {
 .button-package:hover {
     background-color: #f8f8f8;
 }
+/* end of konten 2*/
 
+/* membuat konten 3*/
 .kbox {
     display: flex;
     gap: 20px;
@@ -150,7 +158,7 @@ main {
 }
 
 .tbox {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: italic;
 }
 
@@ -189,6 +197,113 @@ textarea {
     height: 200px;
     margin-left: 2px;
 }
+/* end */
+
+/* membuat isian service*/
+.container-2{
+    height: 100vh;
+    max-height: 100%;
+    width: 100%;
+    max-height: 100%;
+    margin-bottom: 50px;
+}
+h1{
+    font-family: "Tangerine";
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+.se-1{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+
+}
+h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.s-pict{
+    width: 350px;
+    height: 230px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.s-text{
+    font-family: "open sans";
+}
+
+.kbox1 {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.kbox2 {
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    height: 350px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.box1 {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid rgb(248, 248, 248);
+}
+.tbox1 {
+    font-family: "Montserrat";
+}
+
+/* end of isian service*/
+
+/*membuat isi konten portofolio*/
+.p-box1 {
+    display: flex;
+    gap: 5px;
+    max-width: 200%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.p-box2 {
+    display: flex;
+    gap: 5px;
+    max-width: 200%;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.p-box3 {
+    display: flex;
+    gap: 5px;
+    max-width: 200%;
+    margin-left: 180px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+/**untuk landscape*/
+.pbox1 {
+    height: 210px;
+    width: 300px;
+    max-width: 100%;
+}
+.lp-pict{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    object-fit: contain;
+}
+
+/*end of portofolio*/
 
 
 
@@ -198,4 +313,5 @@ footer {
     padding-top: 5px;
     height: 25px;
     font-family: "open san";
+    color: white;
 }
