@@ -204,7 +204,6 @@ textarea {
     height: 100vh;
     max-height: 100%;
     width: 100%;
-    max-height: 100%;
     margin-bottom: 50px;
 }
 h1{
@@ -263,7 +262,6 @@ h3{
 .tbox1 {
     font-family: "Montserrat";
 }
-
 /* end of isian service*/
 
 /*membuat isi konten portofolio*/
@@ -302,9 +300,20 @@ h3{
     padding-bottom: 5px;
     object-fit: contain;
 }
-
 /*end of portofolio*/
-
+/*membuat isian about us*/
+.container-3{
+    height: 100vh;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.a-text{
+    text-align: center;
+}
+/*end of about us*/
 
 
 footer {
